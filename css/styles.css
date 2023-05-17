@@ -674,6 +674,10 @@ input::placeholder {
 .modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
+.modal-form-textarea:hover,
+.modal-form-textarea:focus {
+  border: 1px solid var(--accent-colour);
+}
 .accept {
   position: relative;
   display: flex;
