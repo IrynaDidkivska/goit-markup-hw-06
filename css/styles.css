@@ -670,6 +670,7 @@ input::placeholder {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: transparent;
+  transition: border 250ms var(--timing-function);
 }
 .modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
